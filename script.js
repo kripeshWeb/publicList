@@ -3,7 +3,7 @@ const todoInput = document.getElementById('todo-input');
 const todoList = document.getElementById('todo-list');
 
 let todos = [];
-const blobUrl = 'https://jsonblob.com/api/jsonBlob/1277666568400920576';
+const blobUrl = 'https://jsonblob.com/api/jsonBlob1277666568400920576';
 
 async function fetchTodos() {
     try {
@@ -97,3 +97,7 @@ todoList.addEventListener('click', handleTodoAction);
 
 // Load todos when the page loads
 fetchTodos();
+
+
+
+

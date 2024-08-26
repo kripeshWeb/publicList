@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    max-width: 500px;
+    max-width: 50vw;
     margin: 20px auto;
     background-color: white;
     padding: 20px;
@@ -72,4 +72,21 @@ li {
 
 .delete-btn:hover {
     background-color: #d32f2f;
+}
+.todo-actions {
+    display: flex;
+    gap: 5px;
+}
+
+.edit-btn, .copy-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.edit-btn:hover, .copy-btn:hover {
+    background-color: #45a049;
 }

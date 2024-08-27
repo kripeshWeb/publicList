@@ -3,7 +3,7 @@ const todoInput = document.getElementById('todo-input');
 const todoList = document.getElementById('todo-list');
 
 let todos = [];
-const blobUrl = 'https://jsonblob.com/api/jsonBlob/1277672872825708544';
+const blobUrl = 'https://jsonblob.com/api/jsonBlob/1277666568400920576';
 
 async function fetchTodos() {
     try {
